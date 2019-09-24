@@ -91,8 +91,14 @@ weight_kg_text = 'weight in kilograms:'
 ~~~
 {: .language-python}
 
-## Using Variables in Python
-To display the value of a variable to the screen in Python, we can use the `print` function:
+## Using Variables in Pythono
+In Python, we can use [functions]({{ page.root}}/reference/#function) to do things with our
+variables.In general, a function takes some variables and possible other data as arguments,
+separated by commas in the paranthesis, and output results on the left. In addition, a function may
+produce side-effects such as printing text to the terminal, or writing a file.
+
+For example, to display the value of a variable to the screen in Python, we can use the `print`
+function:
 
 ~~~
 print(weight_kg)
